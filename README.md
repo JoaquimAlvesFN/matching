@@ -11,12 +11,12 @@ Steps to run this project:
 Estrutura do arquivo ormconfig.json:
 
 {
-   "type": "postgres", //Driver do DB
-   "host": "localhost", // IP da Rede
+   "type": "postgres", 
+   "host": "localhost", 
    "port": 5432,
-   "username": "postgres", //Usuario do banco de dados
-   "password": "123456", //Senha de acesso ao banco de dados
-   "database": "match", //Nome do banco de dados
+   "username": "postgres", 
+   "password": "123456", 
+   "database": "match",
    "entities": [
       "./src/models/*.ts"
    ],
