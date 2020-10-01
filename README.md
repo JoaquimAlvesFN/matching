@@ -2,7 +2,7 @@
 
 Steps to run this project:
 
-1. Antes criar um arquivo na raiz do projeto chamado descrito logo abaixo: ormconfig.json
+1. Antes criar um arquivo na raiz do projeto chamado ormconfig.json descrito no final do README.
 2. Executar um dos comandos: `yarn` ou `npm install`
 3. Esse comando cria a estrutura no banco de dados: `yarn typeorm migration:run` ou `npm typeorm migration:run`
 4. E por fim: `yarn dev` ou `npm rundev`
