@@ -1,6 +1,5 @@
 # Instruções para rodar o projeto
 
-Steps to run this project:
 
 1. Antes criar um arquivo na raiz do projeto chamado ormconfig.json descrito no final do README.
 2. Executar um dos comandos: `yarn` ou `npm install`
