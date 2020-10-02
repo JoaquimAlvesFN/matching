@@ -22,10 +22,10 @@ class CreateMatchService {
             
             if (resultExistMatch.length > 0) {
 
-                const createMatch = resultExistMatch.map((mathing) => {
+                const createMatch = resultExistMatch.map(({gravacao_id, tabulacao_id}) => {
                     return matchRepository.create({
-                        gravacao_id: mathing.gravacao_id,
-                        tabulacao_id: mathing.tabulacao_id
+                        gravacao_id,
+                        tabulacao_id
                     })
                 });
 
